@@ -20,6 +20,8 @@ limitations under the License.
 
 # Binary Logarithm
 
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+
 > Compute an integer [binary logarithm][binary-logarithm].
 
 <section class="intro">
@@ -127,6 +129,18 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="links">
+
+[npm-image]: http://img.shields.io/npm/v/@stdlib/math-base-special-fast-uint32-log2.svg
+[npm-url]: https://npmjs.org/package/@stdlib/math-base-special-fast-uint32-log2
+
+[test-image]: https://github.com/stdlib-js/math-base-special-fast-uint32-log2/actions/workflows/test.yml/badge.svg
+[test-url]: https://github.com/stdlib-js/math-base-special-fast-uint32-log2/actions/workflows/test.yml
+
+[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/math-base-special-fast-uint32-log2/main.svg
+[coverage-url]: https://codecov.io/github/stdlib-js/math-base-special-fast-uint32-log2?branch=main
+
+[dependencies-image]: https://img.shields.io/david/stdlib-js/math-base-special-fast-uint32-log2
+[dependencies-url]: https://david-dm.org/stdlib-js/math-base-special-fast-uint32-log2/main
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
