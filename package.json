@@ -1,0 +1,41 @@
+{
+  "name": "@stdlib/math-base-special-fast-uint32-log2",
+  "version": "0.0.0",
+  "description": "Compute an integer binary logarithm (base two).",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/math-base-special-fast-uint32-log2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdfastmath",
+    "mathematics",
+    "math",
+    "fastmath",
+    "fast",
+    "approximate",
+    "approximation",
+    "approx",
+    "math.log2",
+    "log2",
+    "binary",
+    "base 2",
+    "logarithm",
+    "log",
+    "unsigned",
+    "integer",
+    "uint32",
+    "32-bit"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
