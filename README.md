@@ -30,30 +30,14 @@ limitations under the License.
 
 <!-- /.intro -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/math-base-special-fast-uint32-log2
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var log2Uint32 = require( '@stdlib/math-base-special-fast-uint32-log2' );
+import log2Uint32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-uint32-log2@deno/mod.js';
 ```
 
 #### log2Uint32( x )
@@ -93,7 +77,7 @@ v = log2Uint32( 9 >>> 0 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var log2Uint32 = require( '@stdlib/math-base-special-fast-uint32-log2' );
+import log2Uint32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-uint32-log2@deno/mod.js';
 
 var v;
 var i;
@@ -131,7 +115,7 @@ for ( i = 1; i < 101; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -195,7 +179,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/log2]: https://github.com/stdlib-js/math-base-special-log2
+[@stdlib/math/base/special/log2]: https://github.com/stdlib-js/math-base-special-log2/tree/deno
 
 <!-- </related-links> -->
 
