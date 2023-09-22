@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import log2Uint32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-uint32-log2@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-fast-uint32-log2/tags). For example,
+
+```javascript
 import log2Uint32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-uint32-log2@v0.1.0-esm/index.mjs';
 ```
 
@@ -93,7 +98,7 @@ v = log2Uint32( 9 >>> 0 );
 <body>
 <script type="module">
 
-import log2Uint32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-uint32-log2@v0.1.0-esm/index.mjs';
+import log2Uint32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-uint32-log2@esm/index.mjs';
 
 var v;
 var i;
