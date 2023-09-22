@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-fast-uint32-log2",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "Compute an integer binary logarithm (base two).",
   "license": "Apache-2.0",
   "author": {
