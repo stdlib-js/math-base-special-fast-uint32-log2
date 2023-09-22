@@ -50,7 +50,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-log2Uint32 = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-uint32-log2@umd/browser.js' )
+log2Uint32 = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-uint32-log2@v0.1.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -62,7 +62,7 @@ var log2Uint32 = require( 'path/to/vendor/umd/math-base-special-fast-uint32-log2
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-uint32-log2@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-uint32-log2@v0.1.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -115,7 +115,7 @@ v = log2Uint32( 9 >>> 0 );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-uint32-log2@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-uint32-log2@v0.1.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
