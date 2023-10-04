@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import log2Uint32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-uint32-log2@deno/mod.js';
+import log2Uint32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-uint32-log2@v0.1.1-deno/mod.js';
 ```
 
 #### log2Uint32( x )
@@ -88,7 +88,7 @@ v = log2Uint32( 9 >>> 0 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import log2Uint32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-uint32-log2@deno/mod.js';
+import log2Uint32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-uint32-log2@v0.1.1-deno/mod.js';
 
 var v;
 var i;
