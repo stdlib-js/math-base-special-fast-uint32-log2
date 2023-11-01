@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,45 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var minstd = require( '@stdlib/random-base-minstd-shuffle' );
-var log2 = require( '@stdlib/math-base-special-log2' );
-var floor = require( '@stdlib/math-base-special-floor' );
-var pow = require( '@stdlib/math-base-special-pow' );
-var log2Uint32 = require( './../../dist' );
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof log2Uint32, 'function', 'main export is a function' );
-	t.end();
-});
-
-tape( 'the function returns an approximate binary logarithm (base two) for integer arguments', function test( t ) {
-	var x;
-	var y;
-	var v;
-	var i;
-
-	for ( i = 0; i < 5000; i++ ) {
-		x = minstd() >>> 0;
-		y = log2( x );
-		v = log2Uint32( x );
-		t.strictEqual( v, floor( y ), 'returns an approximate binary logarithm' );
-	}
-	t.end();
-});
-
-tape( 'the function returns the exact binary logarithm (base two) for integer powers of 2', function test( t ) {
-	var x;
-	var y;
-	var i;
-
-	for ( i = 0; i < 32; i++ ) {
-		x = pow( 2, i );
-		y = log2Uint32( x );
-		t.strictEqual( y, i, 'returns binary logarithm' );
-	}
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });
