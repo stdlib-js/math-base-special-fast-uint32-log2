@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-fast-uint32-log2",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Compute an integer binary logarithm (base two).",
   "license": "Apache-2.0",
   "author": {
@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "@stdlib/napi-argv-uint32": "^0.2.1",
-    "@stdlib/napi-export": "^0.2.1",
+    "@stdlib/napi-export": "^0.2.2",
     "@stdlib/utils-library-manifest": "^0.2.1"
   },
   "devDependencies": {
@@ -50,7 +50,7 @@
     "@stdlib/math-base-special-log2": "^0.2.1",
     "@stdlib/math-base-special-pow": "^0.2.1",
     "@stdlib/random-base-minstd-shuffle": "^0.2.1",
-    "@stdlib/utils-try-require": "^0.2.1",
+    "@stdlib/utils-try-require": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
