@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-01)
+## Unreleased (2024-12-30)
 
 <section class="commits">
 
@@ -59,7 +59,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 -   [`d04dcbd`](https://github.com/stdlib-js/stdlib/commit/d04dcbd6dc3b0bf4a89bd3947d317fa5ff15bb38) - **docs:** remove private annotations in C comments _(by Philipp Burckhardt)_
 -   [`f36cfab`](https://github.com/stdlib-js/stdlib/commit/f36cfab3875404fd9c58b6e2a6fedca5e04cb4d9) - **chore:** update package meta data [(#2014)](https://github.com/stdlib-js/stdlib/pull/2014) _(by stdlib-bot)_
--   [`c17484a`](https://github.com/stdlib-js/stdlib/commit/c17484ad1830ddfdb3abbe96589b406096e389e1) - **feat:** add C implementation for `math/base/special/fast/uint32-log2` [(#1946)](https://github.com/stdlib-js/stdlib/pull/1946) _(by Rutam, Athan Reines, Pranav Goswami)_
+-   [`c17484a`](https://github.com/stdlib-js/stdlib/commit/c17484ad1830ddfdb3abbe96589b406096e389e1) - **feat:** add C implementation for `math/base/special/fast/uint32-log2` [(#1946)](https://github.com/stdlib-js/stdlib/pull/1946) _(by Rutam Kathale, Athan Reines, Pranav Goswami)_
 
 </details>
 
@@ -76,7 +76,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 -   Athan Reines
 -   Philipp Burckhardt
 -   Pranav Goswami
--   Rutam
+-   Rutam Kathale
 
 </section>
 
